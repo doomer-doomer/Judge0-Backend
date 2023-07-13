@@ -1,0 +1,32 @@
+{
+  "name": "judge0-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --recursive",
+    "tests": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mocha": "^10.2.0",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.2",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^3.0.1",
+    "should": "^13.2.3",
+    "uuid": "^9.0.0",
+    "wrk": "^1.2.1"
+  },
+  "devDependencies": {
+    "loadtest": "^5.2.0"
+  }
+}
